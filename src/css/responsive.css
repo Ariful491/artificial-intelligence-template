@@ -1,0 +1,40 @@
+@media only screen and (min-width: 2560px) {
+  .people-works {
+    display: none; } }
+
+@media only screen and (max-width: 1024px) {
+  .people-works {
+    display: none; }
+  html {
+    font-size: 70%; }
+  .slicknav_menu {
+    display: block;
+    float: right; }
+  .mob-nav {
+    width: 60%; }
+  .navigation {
+    display: none; } }
+
+@media only screen and (max-width: 760px) {
+  html {
+    font-size: 40%; }
+  .nav-btn {
+    width: 20%;
+    float: right; }
+  .contact-header-btn {
+    margin-left: 30%; }
+  .logo1 {
+    width: 20%;
+    float: left; }
+  .copyright_text {
+    width: 60%;
+    float: right; }
+  .copyright-icons {
+    width: 40%;
+    float: left; } }
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 30%; }
+  nav {
+    height: 70%; } }
