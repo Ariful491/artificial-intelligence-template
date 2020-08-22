@@ -9,15 +9,41 @@ $mm:375px;
 $ssm:320px;
 
 
-@media only screen and (min-width:$xxl){
+@media only screen and (min-width:5000px){
     .people-works{
-        display: none;
+        
+        margin: 0 39%;
+    }
+}
+@media only screen and (max-width:5000px){
+    .people-works{
+        
+        margin: 0 36%;
+    }
+}
+@media only screen and (max-width:$xxl){
+    .people-works{
+        
+        margin: 0 15%;
     }
 }
 
+
+@media only screen and (max-width:$l){
+    .people-works{
+       
+        margin: 0 8%;
+    }
+    .people-choiches{
+         height: 37.714rem;
+    }
+  
+}
+
+
 @media only screen and (max-width:$m){
     .people-works{
-        display: none;
+        margin: 0 3%;
     }
       html{
     
@@ -34,6 +60,11 @@ $ssm:320px;
     .navigation{
         display: none;
     }
+    .people-choiches{
+        .big-data-heading{
+            padding-top: 0;
+        }
+    }
     
 }
 
@@ -41,7 +72,7 @@ $ssm:320px;
       html{
     
    font-size: 40%;    
-}
+    }
     .nav-btn{
         width:20%;
         float: right;
@@ -61,6 +92,16 @@ $ssm:320px;
     .copyright-icons{
         width: 40%;
         float: left;
+    }
+    nav{
+        height:75%;
+    }
+    
+    .people-works{
+        width:90%;
+    }
+    .people-mobile{
+        width: 30%;
     }
     
     

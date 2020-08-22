@@ -1,10 +1,24 @@
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 5000px) {
   .people-works {
-    display: none; } }
+    margin: 0 39%; } }
+
+@media only screen and (max-width: 5000px) {
+  .people-works {
+    margin: 0 36%; } }
+
+@media only screen and (max-width: 2560px) {
+  .people-works {
+    margin: 0 15%; } }
+
+@media only screen and (max-width: 1440px) {
+  .people-works {
+    margin: 0 8%; }
+  .people-choiches {
+    height: 37.714rem; } }
 
 @media only screen and (max-width: 1024px) {
   .people-works {
-    display: none; }
+    margin: 0 3%; }
   html {
     font-size: 70%; }
   .slicknav_menu {
@@ -13,7 +27,9 @@
   .mob-nav {
     width: 60%; }
   .navigation {
-    display: none; } }
+    display: none; }
+  .people-choiches .big-data-heading {
+    padding-top: 0; } }
 
 @media only screen and (max-width: 760px) {
   html {
@@ -31,7 +47,13 @@
     float: right; }
   .copyright-icons {
     width: 40%;
-    float: left; } }
+    float: left; }
+  nav {
+    height: 75%; }
+  .people-works {
+    width: 90%; }
+  .people-mobile {
+    width: 30%; } }
 
 @media only screen and (max-width: 375px) {
   html {
